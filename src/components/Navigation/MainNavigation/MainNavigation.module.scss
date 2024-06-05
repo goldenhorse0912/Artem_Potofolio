@@ -1,0 +1,29 @@
+.navigationDrawerNav {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop {
+  display: flex;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+  }
+}
+
+.Logo_GH{
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+
+  width: 10%;
+}
